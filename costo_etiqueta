@@ -1,0 +1,13 @@
+//3) Calcular el perimetro del cuadrado, cuyas dimensiones son ingresadas por el usuario.
+#include<stdlib.h>		//libreria
+#include<iostream>		//libreria
+using namespace std;	//namespace
+int main()				//
+{
+	int l, perim;	//declaracion de variable
+	cout<< "ingresar un lado del cuadrado:";
+	cin>> l;
+	perim= l*4;
+	cout<<"el perimetro es:"<<" "<<perim;
+	return 0;
+}
